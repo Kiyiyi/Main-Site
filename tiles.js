@@ -13,9 +13,13 @@ function touchHandler(e)
 {
     if (e.type == "touchstart")
     {
-        alert("You touched the screen on " + e.type);
+        alert("You touched the screen on ");
     } else if (e.type == "touchend")
     {
-        alert("You removed your finger from " + e.type);
+        alert("You removed your finger from ");
+    }
+    else
+    {
+        alert("none detected");
     }
 }
