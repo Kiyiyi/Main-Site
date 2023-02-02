@@ -1,0 +1,31 @@
+.string {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    animation: move 4s infinite;
+    font-size: 2em;
+    line-height: 2em;
+    overflow: hidden;
+  }
+  
+  .tagline {
+    position: relative;
+    animation: white-out 5s infinite;
+  }
+  
+  
+  @keyframes move {
+    0%{
+        transform: translateY(0em);
+        opacity: 1;
+    }
+    25% {
+        transform: translatey(2.2em);
+    }
+    50% {
+        transform: translatey(4.2em);
+      }
+    75% {
+        transform: translatey(6.2em);
+      }
+  }
